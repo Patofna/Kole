@@ -1,0 +1,129 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0 auto;
+
+    }
+/**********************HEADER*****************/
+header{
+    position: fixed;
+    background-color: rgb(0, 223, 252);
+    width: 100%;
+}
+
+#naslov{
+    color: mediumblue;
+    display: flex;
+    align-items: center;
+}
+
+#links{
+    text-align: right;
+}
+
+#links a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+
+}
+
+#slicica{
+    margin-left: 20px;
+    border-radius: 50%;
+}
+/**********************HERO*****************/
+#hero {
+    background-image: url(../img/3dstudio.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    background-color: white;
+}
+
+#q1q2{
+    color: rgb(9, 158, 196);
+    font-family: cursive;
+}
+
+#q2{
+    text-align: right;
+}
+
+/**********************ABOUT*****************/
+
+#about{
+    width: 100%;
+    background-color: rgba(65, 113, 243, 0.459);
+}
+
+#a-naslov{
+    font-weight: 700;
+    color: rgb(56, 35, 245);
+}
+
+#neki-text{
+    display: flex;
+    padding-left: 20px;
+    text-align: center;
+    align-items: center;
+    color: rgb(16, 53, 133);
+    font-size: 1.25rem;
+    margin-right: 10px;
+}
+
+/**********************SERVICES*****************/
+
+#services{
+    text-align: center;
+    width: 100%;
+    background-color: rgba(53, 86, 175, 0.753);
+}
+
+#s-naslov{
+    font-weight: 700;
+    color: rgb(56, 35, 245);
+}
+
+#services img{
+    border-radius: 50%;
+}
+
+#services p{
+    color: white;
+}
+
+/**********************CONTACT*****************/
+
+#c-naslov{
+    font-weight: 700;
+    color: rgb(56, 35, 245);
+}
+
+#contact{
+    width: 100%;
+    background-color: rgba(44, 70, 139, 0.753);
+}
+
+#imena{
+    text-align: center;
+}
+
+#imena p{
+    margin-bottom: 30px;
+    color: turquoise;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+/**********************CONTACT*****************/
+
+footer{
+    background-color: rgb(24, 25, 51);
+    color: white;
+}
+
